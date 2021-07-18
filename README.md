@@ -40,8 +40,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Here is my solutiom](https://github.com/Rohitgour03/Profile-card-component/)
+- Live Site URL: [Here is my live solution](https://rohitgour03.github.io/Profile-card-component/)
 
 ## My process
 
@@ -71,6 +71,6 @@ I found myself struggling with position while creating this project and I am goi
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Rohitgour03](https://www.frontendmentor.io/profile/Rohitgour03)
+- Twitter - [@Rohitgour03](https://www.twitter.com/Rohitgour03)
 
