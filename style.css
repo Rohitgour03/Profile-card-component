@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 200 normal 1rem/1.5rem 'Kumbh Sans', sans-serif;
+    color: hsl(0, 0%, 59%);
+}
+
+img{
+    max-width: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+h2{
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+    color: hsl(229, 23%, 23%);
+}
+
+.container, .stats, .profile_img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #1AA1AD;
+    height: 100vh;
+    margin: 0 auto;
+
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, bottom;
+    background-position-y: -600px, 500px;
+    background-position-x: -700px, 70px;
+}
+
+.card_container{
+    background: #fff;
+    width: 350px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 30px 80px #15838d;
+    
+}
+
+.card_background_container{
+    height: 40%;
+    border-radius: 10px;
+}
+
+.card_background_image{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.profile_img_container{
+    background: #fff;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.profile_img{
+    border-radius: 100px;
+}
+
+.content_container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.basic_info{
+    margin: 0 auto;
+    text-align: center;
+    margin: 4rem 0rem 1.5rem 0rem;
+}
+
+.age{
+    font-weight: 400;
+    color: #808080;
+}
+
+.separation_line{
+    background-color: hsl(0, 0%, 93%);
+    height: 1px;
+    width: 100%;
+}
+
+.stats{
+    justify-content: space-around;
+    margin: 1.8rem auto;
+    text-align: center;
+}
+
+.stat p{
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+@media screen and (min-width: 768px){
+
+    .container{
+        background-position-y: -550px, 450px;
+        background-position-x: -230px, 900px;
+        background-size: 60%, 60%;
+    }
+
+}
